@@ -22,7 +22,7 @@ jobs:
 
       - name: Install ansible-builder
         run: |
-          apt install python3-pip -y
+          sudo apt install python3-pip -y
           ansible-builder create --verbosity 3
 
       # https://github.com/docker/login-action
