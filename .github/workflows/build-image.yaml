@@ -44,4 +44,4 @@ jobs:
           context: ./context # ansible-builder default BUILD_CONTEXT is context directory
           file: ./context/Containerfile
           push: true
-          tags: ${{ env.REGISTRY }}/thejaxon/ansible:${{ inputs.docker_tag }}
+          tags: ${{ env.REGISTRY }}/thejaxon/ansible:0.1
