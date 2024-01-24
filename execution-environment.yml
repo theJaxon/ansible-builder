@@ -15,3 +15,6 @@ dependencies:
   galaxy:
     collections:
       - community.general
+
+options:
+  user: root
