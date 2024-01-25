@@ -11,5 +11,5 @@ Used for creating an ansible execution environment
 
 #### How is it created
 - First we start by downloading `ansible-builder` via [`pip3 install ansible-builder`](https://pypi.org/project/ansible-builder/)
-- Next we create the `execution-environment.yml` which specifies the aforementioned components
+- Next we create the [`execution-environment.yml`](https://github.com/theJaxon/ansible-builder/blob/main/execution-environment.yml) which specifies the aforementioned components
 - Invoking the command [`ansible-builder create --verbosity 3`](https://ansible.readthedocs.io/projects/builder/en/stable/usage/) results in generating both the `Dockerfile` and the build `Context` directory
